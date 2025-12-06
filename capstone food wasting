@@ -1,0 +1,299 @@
+<!doctype html>
+
+<html lang="en"><head>  <meta charset="utf-8" />  <meta name="viewport" content="width=device-width,initial-scale=1" />  <title>Stop Food Wastage</title>  <style>
+  
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+  
+    *{margin:0;padding:0;box-sizing:border-box}
+  
+    body{
+  
+      font-family:'Poppins',sans-serif;
+  
+      background:#e8f7f2;
+  
+      color:#0f172a;
+  
+    }
+  
+
+  
+    /* HEADER */
+  
+    header{
+  
+      background:#0d162b;
+  
+      padding:22px;
+  
+      position:sticky;top:0;z-index:10;
+  
+      box-shadow:0 4px 10px rgba(0,0,0,0.3);
+  
+    }
+  
+    header h1{color:#fff;font-weight:700;margin-bottom:5px}
+  
+    .nav-links a{
+  
+      color:#dce3f3;
+  
+      margin-right:22px;
+  
+      text-decoration:none;
+  
+      font-weight:500;
+  
+    }
+  
+
+  
+    /* HERO SECTION */
+  
+    .hero{
+  
+      background:linear-gradient(135deg,#9df3c4,#50b9f2);
+  
+      padding:60px 40px;
+  
+      display:flex;
+  
+      align-items:center;
+  
+      justify-content:space-between;
+  
+      border-radius:0 0 25px 25px;
+  
+      flex-wrap:wrap;
+  
+    }
+  
+    .hero-text h2{font-size:36px;font-weight:700;margin-bottom:12px;color:#0f172a;}
+  
+    .hero-text p{width:100%;max-width:450px;font-size:17px;margin-bottom:18px;color:#0f172acc}
+  
+    .hero-btn{
+  
+      background:#3b82f6;color:#fff;border:none;padding:12px 22px;
+  
+      border-radius:12px;font-weight:600;cursor:pointer;font-size:15px;
+  
+      box-shadow:0 4px 10px rgba(0,0,0,0.25);
+  
+      margin-right:10px;
+  
+    }
+  
+
+  
+    /* SUN */
+  
+    .sun-box{position:relative;width:300px;height:300px;display:flex;align-items:center;justify-content:center;margin-top:20px;}
+  
+    .sun{
+  
+      width:180px;height:180px;background:#ffd645;border-radius:50%;
+  
+      box-shadow:inset -20px -20px 0 rgba(255,180,0,0.4);
+  
+    }
+  
+    .ray{
+  
+      width:14px;height:50px;background:#ffcc33;
+  
+      border-radius:8px;position:absolute;
+  
+    }
+  
+
+  
+    /* ROTATE RAYS */
+  
+    .r1{top:0;left:50%;transform:translateX(-50%);}  
+  
+    .r2{top:25px;right:25px;transform:rotate(40deg);}  
+  
+    .r3{right:0;top:50%;transform:translateY(-50%) rotate(90deg);} 
+  
+    .r4{bottom:25px;right:25px;transform:rotate(140deg);} 
+  
+    .r5{bottom:0;left:50%;transform:translateX(-50%);}  
+  
+    .r6{bottom:25px;left:25px;transform:rotate(-40deg);} 
+  
+    .r7{left:0;top:50%;transform:translateY(-50%) rotate(90deg);} 
+  
+    .r8{top:25px;left:25px;transform:rotate(-140deg);} 
+  
+
+  
+    /* SECTIONS */
+  
+    .container{max-width:1000px;margin:auto;padding:30px;}
+  
+    .card{
+  
+      background:#fff;padding:25px;border-radius:20px;
+  
+      box-shadow:0 4px 14px rgba(0,0,0,0.1);margin-bottom:25px;
+  
+    }
+  
+    h2{margin-bottom:12px;color:#0f172a;font-weight:700;}
+  
+    ul li{margin:8px 0;font-size:16px}
+  
+
+  
+    /* FORM */
+  
+    form input,form textarea{width:100%;padding:12px;border-radius:12px;border:1px solid #cbd5e1;margin-top:6px;margin-bottom:16px;}
+  
+    button{cursor:pointer}
+  
+
+  
+  </style></head><body><header>  <h1>Stop Food Wastage</h1>  <div class="nav-links"><a href="#home">Home</a>
+
+<a href="#cause">Why It Happens</a>
+
+<a href="#solutions">Solutions</a>
+
+<a href="#pledge">Pledge</a>
+
+  </div></header><!-- HERO SECTION --><section id="home" class="hero">  <div class="hero-text"><h2>Save Food,<br>Save Lives</h2>
+
+<p>Every year, thousands of kilos of food are wasted while many people sleep hungry. Preventing food wastage is everyone’s responsibility — let’s come together and take a small but powerful step.</p><button class="hero-btn" onclick="document.getElementById('pledge').scrollIntoView()">Take the Pledge</button>
+
+  </div>  <div class="sun-box"><div class="sun"></div>
+
+<div class="ray r1"></div>
+
+<div class="ray r2"></div>
+
+<div class="ray r3"></div>
+
+<div class="ray r4"></div>
+
+<div class="ray r5"></div>
+
+<div class="ray r6"></div>
+
+<div class="ray r7"></div>
+
+<div class="ray r8"></div>
+
+  </div></section><div class="container">  <section id="cause" class="card"><h2>💢 Why Food Gets Wasted?</h2>
+
+<ul>
+
+   <li>Cooking more food than needed</li>
+
+   <li>Leftover food from hotels and restaurants</li>
+
+   <li>Food getting expired at home</li>
+
+   <li>Huge food waste in weddings and events</li>
+
+
+
+</ul>
+
+  </section>  <section id="solutions" class="card"><h2>✔ Solutions to Reduce Food Waste</h2>
+
+<ul>
+
+ <li>Cook only as much as needed</li>
+
+ <li>Donate leftover food</li>
+
+ <li>Follow proper food storage methods</li>
+
+ <li>Plan food properly during weddings</li>
+
+ <li>Develop small daily habits to reduce waste</li>
+
+
+
+</ul>
+
+  </section>  <!-- PLEDGE FORM -->  <section id="pledge" class="card"><h2>✍ Take the Anti-Food-Waste Pledge</h2>
+
+<form>
+
+  <label>Your Name</label>
+
+  <input type="text" id="name" required>
+
+
+
+  <label>Your City</label>
+
+  <input type="text" id="city" required>
+
+
+
+  <label>Why do you want to stop food waste?</label>
+
+  <textarea id="reason" rows="3" required></textarea>
+
+
+
+  <button type="button" class="hero-btn" onclick="savePledge()">Save Pledge</button>
+
+  <button type="button" class="hero-btn" style="background:#fff;color:#000" onclick="downloadPledge()">Download Certificate</button>
+
+</form>
+
+  </section></div><footer style="text-align:center;padding:20px;background:#0d162b;color:#fff;">© 2025 Food Waste Awareness</footer><script>
+  
+function savePledge(){
+  
+  let data={
+  
+    name:document.getElementById('name').value,
+  
+    city:document.getElementById('city').value,
+  
+    reason:document.getElementById('reason').value
+  
+  };
+  
+  if(!data.name || !data.city || !data.reason){
+  
+    alert("Please fill all fields!");
+  
+    return;
+  
+  }
+  
+  localStorage.setItem('pledgeData',JSON.stringify(data));
+  
+  alert("Pledge Saved Successfully!");
+  
+}
+  
+
+  
+function downloadPledge(){
+  
+  let data=JSON.parse(localStorage.getItem('pledgeData'));
+  
+  if(!data){alert("Please fill the form first!");return;}
+  
+  let text=🎖 Food Waste Awareness Certificate 🎖\n\nName: ${data.name}\nCity: ${data.city}\nReason: ${data.reason}\n\nThank you for supporting the mission!;
+  
+  let blob=new Blob([text],{type:'text/plain'});
+  
+  let link=document.createElement('a');
+  
+  link.href=URL.createObjectURL(blob);
+  
+  link.download="Food_Pledge.txt";
+  
+  link.click();
+  
+}
+  
+</script></body></html>
